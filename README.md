@@ -1,17 +1,15 @@
-# Pangolin Interface
+# Ahoj.Mix Interface
 
-An open source interface for Pangolin -- a community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution -- powered by Avalanche.
+An open source interface for Ahoj.Mix, a DEX digital assets, powered by Avalanche.
 
-- Website: [pangolin.exchange](https://pangolin.exchange/)
-- Interface: [app.pangolin.exchange](https://app.pangolin.exchange)
-- Telegram: [Pangolin](https://t.me/pangolindex)
-- Discord: [Pangolin](https://discord.com/invite/PARrDYYbfw)
-- Twitter: [@pangolindex](https://twitter.com/pangolindex)
+- Website: [ahoj.finance](https://www.ahoj.finance/)
+- Interface: [mix.ahoj.finance](https://mix.ahoj.finance/)
+- Twitter: [@bayro_io](https://twitter.com/bayro_io)
 
 
-## Accessing the Pangolin Interface
+## Accessing the Ahoj.Mix Interface
 
-Visit [app.pangolin.exchange](https://app.pangolin.exchange).
+Visit [mix.ahoj.finance](https://mix.ahoj.finance/).
 
 ## Development
 
@@ -36,9 +34,9 @@ To have the interface default to a different network when a wallet is not connec
 3. Change `REACT_APP_NETWORK_URL` to your JSON-RPC provider 
 
 Note that the interface only works on testnets where both 
-[Pangolin](https://github.com/pangolindex/exchange-contracts) and 
+[Ahoj.Mix V1](https://github.com/bayroio/ahoj-mix-v1-contracts) and 
 [multicall](https://github.com/makerdao/multicall) are deployed.
 The interface will not work on other networks.
 
 ## Attribution
-This code was adapted from this Uniswap repo: [uniswap-interface](https://github.com/Uniswap/uniswap-interface).
+This code was adapted from this Uniswap repo [uniswap-interface](https://github.com/Uniswap/uniswap-interface) and interface for Pangolin repo [interface](https://github.com/pangolindex/interface).
